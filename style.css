@@ -1,0 +1,41 @@
+body {
+    //background-color: black;
+    background-image: linear-gradient(to right, #0f0c29,#302b63,#24243e);
+}
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#myDiv{
+    top: 100px;
+    left:0;
+    height: 900px;
+    position: relative;
+}
+h1,h2{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-weight: 500;
+    margin: 0.4rem;
+    color: #ccc;
+//top: 70px;
+    margin-block-start: 7em;
+    font-size: 60px;
+}
+
+
+

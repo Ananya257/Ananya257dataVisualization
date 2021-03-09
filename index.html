@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="plotly.min.js"></script>
+    <script src="d3Lib.js"></script>
+    <style>
+        .node circle {
+            stroke: #3a403d;
+            stroke-width: .5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Trends of Music Genres over the years from 1920 to 2020</h1>
+        <div id="myDiv"></div>
+<div id="TopSongs"></div>
+<div id="chart"><h1>Let's see top songs of 2020 of Pop genre</h1></div>
+        <img src="legend.png" height="30%" width="30%" id="le" class="centre">
+<div id="tooltip"></div>
+<div id="chart1"><h2>Let's see top songs of 2020 of Rap genre</h2></div>
+<audio src="./assets/music/beyonce.mp3" id="song" muted autoplay crossOrigin="anonymous"></audio>
+
+</body>
+
+<script src="data.js"></script>
+</html>
